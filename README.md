@@ -2,17 +2,17 @@
 
 📡 Implementation of Go-Back-N Protocol – Selective Repeat
 
-🎯 Aim
+## 🎯 Aim
 
 To write and execute a program for the Go-Back-N protocol using the Selective Repeat technique.
 
-🛠️ Equipments Required
+## 🛠️ Equipments Required
 
 • 	Personal Computer
 
 • 	Turbo C Compiler
 
-📋 Procedure
+## 📋 Procedure
 1. 	Connect two computers in a Wired/Wireless LAN.
 2. 	Ensure both computers are on the same network and can ping each other.
 3. 	Open a new C file in Code::Blocks or any C IDE and type the program.
@@ -26,8 +26,8 @@ Add: netproto and pthread
 • 	Error rate
 7. 	Choose the file and verify the Go-Back-N protocol operation.
 
-💻 Program
-
+## 💻 Program
+```
 #include <stdio.h>
 
 void main() {
@@ -60,10 +60,9 @@ void main() {
     printf("\nSending frame %d\nFRAME ACKNOWLEDGED...\n", j);
     printf("\n\nALL FRAMES RECEIVED SUCCESSFULLY\n\n");
 }
-
-🖥️ Sample Output
+```
+## 🖥️ Sample Output
 <img width="1236" height="1108" alt="code block 2" src="https://github.com/user-attachments/assets/49621d52-6eda-4d7e-85e0-49a6ad75a1d6" />
 
-✅ Result
-
+## ✅ Result
 Thus, the Go-Back-N protocol using Selective Repeat was successfully implemented and verified.
